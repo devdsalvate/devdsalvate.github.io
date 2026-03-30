@@ -24,6 +24,7 @@ html {
     background-color: #121212;
     height: 60px;
     position: fixed;
+    z-index: 9;
 }
 
 hr {
