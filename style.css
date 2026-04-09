@@ -44,11 +44,13 @@ hr {
     text-decoration: none;
     font-size: 30px;
     color: white;
+    transition: 0.4s;
 }
 
 .nav a:hover {
     color: red;
     font-weight: bold;
+    font-size: 31px;
 }
 
 .main {
@@ -82,10 +84,12 @@ hr {
     max-width: 700px;
 }
 
-.milan {
-    width: 200px;
+.daniel {
+    width: 400px;
     height: auto;
+    border-radius: 16px;
 }
+
 .sec-1 {
     max-width: 800px;
     margin: 50px auto;
@@ -154,6 +158,7 @@ hr {
     border-radius: 8px;
     text-decoration: none;
     font-size: 15px;
+    transition: 0.4s;
 }
 
 .area-item-1:hover {
@@ -224,6 +229,14 @@ hr {
     transition: transform 0.3s ease;
 }
 
+.contact-item a {
+    text-decoration: none;
+    font-size: 20;
+    color: white;
+    transition: 0.4s;
+}
+
+
 .contact-item:last-child {
     border-bottom: none;
 }
@@ -238,4 +251,263 @@ hr {
 
 .contact-item:hover {
     transform: scale(1.05);
+}
+
+.contact-item a:hover {
+    color: rgb(0, 47, 255);
+    font-size: 18px;
+}
+
+@media (max-width: 1200px) {
+    .daniel {
+        width: 330px;
+    }
+
+    .texto-main{
+        width: 85%;
+        font-size: 20px;
+    }
+
+    .area-item-1{ 
+        margin: 35px;
+        padding: 25px;
+    }
+
+    .area-item-2{ 
+        margin: 35px;
+        padding: 25px;
+    }
+
+    .area-item-3{ 
+        margin: 35px;
+        padding: 25px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .daniel {
+        width: 290px;
+    }
+
+    .text-main {
+        font-size: 15px;
+        width: 50%;
+    }
+}
+
+@media (max-width: 1050px) {
+    .daniel {
+        width: 270px;
+        margin-right: 25px;
+    }
+
+    .text-main {
+        font-size: 13px;
+        width: 45%;
+    }
+    
+    .sec-1 {
+        margin: 5px 80px;
+    }
+
+    .sec-1 h1 {
+        font-size: 30px;
+        margin-bottom: 08px;
+        color: #ff0000;
+    }
+
+    .sec-1 p {
+        margin-bottom: 12px;
+        font-size: 13px;
+    }
+
+    .linguagens {
+        width: 100px;
+        margin-right: 20px;
+        margin-top: 10px;
+        transition: transform 0.3s ease;
+    }        
+
+    .area-item-1{ 
+        margin: 25px;
+        padding: 15px;
+    }
+
+    .area-item-2{ 
+        margin: 25px;
+        padding: 15px;
+    }
+
+    .area-item-3{ 
+        margin: 25px;
+        padding: 15px;
+    }        
+
+@media (max-width: 820px) {
+    .nav a{
+        font-size: 26px;
+    }
+    .nav a:hover {
+        font-size: 28px;
+    }    
+    .main {
+        flex-direction: column;
+    }
+
+    .sec-1 {
+        margin: 5px 20px;
+    }
+
+    .sec-1 h1 {
+        font-size: 30px;
+        margin-bottom: 08px;
+        color: #ff0000;
+    }
+
+    .sec-1 p {
+        margin-bottom: 12px;
+        font-size: 13px;
+    }
+
+    .linguagens {
+        width: 100px;
+        margin-right: 20px;
+        margin-top: 10px;
+        transition: transform 0.3s ease;
+    }        
+}
+
+}
+
+@media (max-width: 700px) {
+    .nav a{
+        font-size: 22px;
+    }
+    .nav a:hover {
+        font-size: 23px;
+    }
+    .main {
+        flex-direction: column;
+    }
+
+    .sec-1 {
+        margin: 5px 20px;
+    }
+
+    .sec-1 h1 {
+        font-size: 30px;
+        margin-bottom: 08px;
+        color: #ff0000;
+    }
+
+    .sec-1 p {
+        margin-bottom: 12px;
+        font-size: 13px;
+    }
+
+    .linguagens {
+        width: 100px;
+        margin-right: 20px;
+        margin-top: 10px;
+        transition: transform 0.3s ease;
+    }    
+
+    .area-item-1 p{
+        font-size: 12px;
+    }
+
+    .area-item-1 h1 {
+        font-size: 21px;
+    }
+
+    .area-item-1 img {
+        width: 85%;
+    }
+}
+
+@media (max-width: 650px) {
+    .daniel {
+        width: 235px;
+    }
+    
+    .linguagens {
+        width: 80px;
+    }    
+    .container {
+        grid-template-columns: 1fr;
+    }
+        .area-item-1{ 
+        margin: 25px;
+        padding: 15px;
+    }
+
+    .area-item-2{ 
+        margin: 25px;
+        padding: 15px;
+    }
+
+    .area-item-3{ 
+        margin: 25px;
+        padding: 15px;
+    } 
+
+}
+
+@media (max-width: 550px) {
+    .daniel {
+        width: 230px;
+    }
+}
+
+@media (max-width: 500px) {
+    .daniel {
+        width: 215px;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 450px) {
+
+    .daniel {
+        width: 200px
+    }
+
+    .nav a{
+        font-size: 17px;
+    }
+
+    .nav a:hover {
+        font-size: 19px;
+    }
+
+    .texto-main p {
+        font-size: 14px;
+    }
+
+    .daniel {
+        width: 220px;
+    }
+
+    .texto-main h1 {
+        font-size: 22px;
+    }
+
+    .linguagens {
+        width: 67px;
+    }
+
+    .sec-1 {
+        margin: 12px 25px;
+    }
+
+    .sec-1 h1 {
+        font-size: 25px;
+        margin-bottom: 08px;
+        color: #ff0000;
+    }
+
+    .sec-1 p {
+        margin-bottom: 12px;
+        font-size: 11px;
+    }
 }
